@@ -54,3 +54,21 @@ And more important than the one above, this one also holds for any value x:
 
 Promise.resolve(Promise.reject(x)) === Promise.reject(Promise.resolve(x)) === Promise.reject(x).
 "
+
+## ORM
+I have to dig more the object/data relationship
+
+## GraphQL
+
+possible to use GET for caching (or play with POST Header), but seems tricky
+
+uncaught JS erros are sent in GraphQL responses (for example, const reaffected, ...)
+
+I feel a lot of redundancy with the Schema, the rootValue, data, objects, and even Queries
+and mutation which should be named like function declaration (including parameters again ...)
+
+A nice article about other caveats is here:
+
+https://blog.logrocket.com/5-reasons-you-shouldnt-be-using-graphql-61c7846e7ed3/
+
+Clearly not a silverbullet, interesting, but will try other stuff before
